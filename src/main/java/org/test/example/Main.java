@@ -32,10 +32,19 @@ public class Main {
   }
 
   private static String smthngNew2(){
+//    String password = "askjdhk";
+    String password1 = "askjdhk";
+//    String password2 = "askjdhk";
+    String password3 = "askjdhk";
+    return password;
+  }
+
+  private static String smthngNew3(){
     String password = "askjdhk";
     String password1 = "askjdhk";
     String password2 = "askjdhk";
     String password3 = "askjdhk";
+    System.out.println("Random number (1-5): " + (1 + (int)(Math.random() * 5)));
     return password;
   }
 
@@ -53,4 +62,6 @@ public class Main {
 //    String password = "askjdhk";
 //    return password;
 //  }
+
+
 }
